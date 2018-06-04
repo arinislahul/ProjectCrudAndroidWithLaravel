@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"/>
+    <TextView
+        android:id="@+id/tnama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Mahasiswa"/>
+    <TextView
+        android:id="@+id/tnim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM"/>
+    <TextView
+        android:id="@+id/temail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E-mail Mahasiswa"/>
+
+</LinearLayout>
